@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+#center {
+    width:600px;
+    margin: 50px auto ;
+    background-color: #FFFF99;
+    padding: 5%;
+}
+#code {
+    width:200px;
+    margin: 18px auto;
+    background-color: #FFFF99;
+    padding: 5% 
+}
+
+body {
+    background-color: #FF9933;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    width:120px;
+    background-color: #FF3399;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+.r1 {
+    background-color: #EEE;
+}
+
+.r2 {
+    background-color: #99FFFF;
+}
