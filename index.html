@@ -1,13 +1,54 @@
-<!doctype html>
+<!doctype html>;
 <html lang="ja">
     <head>
         <meta charset="UTF-8" />
         <link rel="stylesheet" type="text/css" href="style.css">
-        <title>第５０回　高専祭</title>
+        <title>第５０回 奈良高専　高専祭</title>
     </head>
     <body>
-        <div id="font">
-            
-        <div> 
+        <script>
+            function colorfulBalloon(n, max, min) {
+    var balloon = document.createElement("div");
+    balloon.className = "balloon";
+    balloon.style.borderRadius = "50%";
+    balloon.style.position = "fixed";
+    balloon.style.zIndex = "-1";
+
+    for (var i = 0; i < n; i++) {
+        var balloonClone = balloon.cloneNode();
+        balloonClone.style.backgroundColor = "hsla(" + Math.random() * 360 + ", 50%, 50%, .2)";
+        var size = Math.random() * (max - min) + min;
+        balloonClone.style.top = "calc(" + -1 * size * Math.random() + "px + " + Math.random() * 100 + "%)";
+        balloonClone.style.left = "calc(" + -1 * size * Math.random() + "px + " + Math.random() * 100 + "%)";
+        balloonClone.style.width = size + "px";
+        balloonClone.style.height = size + "px";
+        document.body.appendChild(balloonClone);
+    };
+
+}
+
+colorfulBalloon(10, 550, 50);
+        </script>
+         </div> 
+         <div id="icon2">
+            <a href="access.html">1</a>
+         </div>
+         <div id="icon3">
+             <a href="event.html">2</a>
+         </div>
+         <div id="icon4">
+            <a href="about.html">3</a>
+         </div>
+         <div id="icon5">
+            <a href="store.html">4</a>
+         </div>
+         <div id="icon1">
+                   <h1>
+                    <a>５０ｔｈ</a><br><br>
+                   第50回高専祭
+                 <p>「ひらけ最先端！</p>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        ～50年の空～」</h1>
+
     </body>
 </html>
